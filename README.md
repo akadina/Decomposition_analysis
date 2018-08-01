@@ -11,3 +11,5 @@ http://www.sciencedirect.com/science/article/pii/S0304407696018076
 Function expects a dataset in a form of pandas DataFrame or something that can be converted to DataFrame, as well as names of the columns that correspond to wealth rank of a household/individual and variable for which concentration index is to be calculated.
 
 Returns: concentration index calculated using Kakwani method.
+
+Validation procedure for the calculation by Zhuo (Adam) Chen is available as conc_index_validation.xls
